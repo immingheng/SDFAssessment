@@ -25,7 +25,7 @@ public class HttpServer {
     public void createServer(int port, List<String> docRoots) throws IOException {
         ServerSocket server = new ServerSocket(port);
         // Print out that server has been started and output a text to indicate so
-        System.out.println("TCP connection is opened, currently listening to " + port);
+        System.out.println("TCP connection is opened, currently listening to port " + port);
 
         // Now loop through each of the string in docRoots to carry out verifications
         for (String dr : docRoots) {

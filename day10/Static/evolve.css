@@ -1,0 +1,7 @@
+div{
+    height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; /* Spacing within main axis (row) */
+    align-items: center; /* Spacing within secondary axis (columnar) */
+}
